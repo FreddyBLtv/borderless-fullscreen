@@ -4,7 +4,9 @@
 
 This script is a simple bash script that allows you to force a windowed application into borderless fullscreen mode in Linux.
 
-Requirements
+<h1 align="left">
+	Requirements
+</h1>
 xdotool
 zenity
 Installation
