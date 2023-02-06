@@ -48,7 +48,7 @@ Open a terminal and navigate to the directory where the script is located.
 * Make the installation script executable
 
 ```sh
-chmod +x install.sh
+sudo chmod +x install.sh
 ```
 * Run the installation script
 
