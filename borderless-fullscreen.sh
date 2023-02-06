@@ -1,27 +1,26 @@
 #!/bin/bash
 
-function get_window_list() {
-    # Get a list of all running windowed applications
-    window_list=($(xdotool search --onlyvisible --name ".*"))
-    window_titles=()
-    for window_id in "${window_list[@]}"; do
-        window_titles+=($(xdotool getwindowname "$window_id"))
-    done
-    echo "${window_titles[@]}"
-}
+# get a list of all windowed process IDs
+windows=$(xdotool search --onlyvisible --desktop $(xdotool get_desktop) "" 2>/dev/null)
 
-function force_fullscreen() {
-    # Force the selected window into fullscreen mode
-    xdotool windowunmap "$1"
-    xdotool windowset --add "_NET_WM_STATE_FULLSCREEN" "$1"
-    xdotool windowmap "$1"
-}
+# get the process names and store in an array
+mapfile -t process_list < <(for window in $windows; do
+  xdotool getwindowname "$window"
+done)
 
-# Present a list of running windowed applications to the user
-options=($(get_window_list))
-selected=$(zenity --list --title="Fullscreen" --text="Select a windowed application to force into fullscreen mode:" --column="Window Title" "${options[@]}")
+# prompt the user to select a process using zenity
+process_name=$(zenity --list --title "Select Process" --text "Select a process to force into fullscreen:" --column "Process" "${process_list[@]}")
 
-if [ -n "$selected" ]; then
-    window_id=$(xdotool search --name "$selected")
-    force_fullscreen "$window_id"
+# find the ID of the selected process
+window_id=$(xdotool search --name "$process_name" | head -1)
+
+# prompt the user for fullscreen mode using zenity
+fullscreen_mode=$(zenity --list --title "Fullscreen Mode" --text "Select fullscreen mode:" --column "Mode" "Borderless Fullscreen" "Regular Fullscreen")
+
+# set the selected process to fullscreen mode
+if [ "$fullscreen_mode" == "Borderless Fullscreen" ]; then
+  xdotool set_window --borderless yes "$window_id"
+  xdotool windowsize "$window_id" 100% 100%
+else
+  xdotool set_window --fullscreen yes "$window_id"
 fi
