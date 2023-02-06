@@ -53,7 +53,7 @@ chmod +x install.sh
 * Run the installation script
 
 ```sh
-./install.sh
+sudo ./install.sh
 ```
 After running the installation script, the Borderless Fullscreen application should be available in your application menu and you can start it by clicking on it.
 
@@ -66,5 +66,5 @@ Open a terminal and navigate to the directory where the `install.sh` script is l
 * Run the uninstallation script
 
 ```sh
-./uninstall.sh
+sudo ./uninstall.sh
 ```
