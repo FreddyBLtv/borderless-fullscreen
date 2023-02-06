@@ -15,7 +15,7 @@ This is a simple bash script that allows you to force a windowed application int
 	Installation
 </h1>
 
-1. Install the required dependencies
+* Install the required dependencies
 
 `Debian/Ubuntu`
 ```sh
@@ -33,7 +33,7 @@ pacman -Syu xdotool zenity
 ```sh
 apk add --upgrade xdotool zenity
 ```
-2. Clone the repository or download the script to your local machine.
+* Clone the repository or download the script to your local machine.
 
 ```sh
 git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
