@@ -16,6 +16,7 @@ This script is a simple bash script that allows you to force a windowed applicat
 </h1>
 1. Clone the repository or download the script to your local machine.
 Copy code
+
 ```sh
 $ git clone https://github.com/<username>/borderless-fullscreen.git
 ```
