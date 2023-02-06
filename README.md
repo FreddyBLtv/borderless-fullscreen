@@ -20,6 +20,7 @@
 `Wayland`
 * [wlr-randr](https://pkgs.org/download/wlr-randr)
 * [wmctrl](https://pkgs.org/download/wmctrl)
+* [zenity](https://pkgs.org/download/zenity)
 
 <h1 align="left">
 	Installation
