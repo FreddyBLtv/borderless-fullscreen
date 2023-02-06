@@ -15,22 +15,22 @@ This is a simple bash script that allows you to force a windowed application int
 	Installation
 </h1>
 
-1. Clone the repository or download the script to your local machine.
-Copy code
+1. Install the required dependencies
+
+`Deb/Ubuntu` ```sh
+$ sudo apt-get install xdotool zenity
+```
+2. Clone the repository or download the script to your local machine.
 
 ```sh
 $ git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 ```
-2. Make the script executable
+3. Make the script executable
 
 ```sh
 $ chmod +x borderless-fullscreen.sh
 ```
-3. Install the required dependencies
 
-```sh
-$ sudo apt-get install xdotool zenity
-```
 
 Usage
 Open a terminal and navigate to the directory where the script is located.
