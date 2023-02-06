@@ -18,8 +18,8 @@
 * [zenity](https://pkgs.org/download/zenity)
 
 `Wayland`
-* [wlr-randr](https://pkgs.org/download/xdotool)
-* [wmctrl](https://pkgs.org/download/zenity)
+* [wlr-randr](https://pkgs.org/download/wlr-randr)
+* [wmctrl](https://pkgs.org/download/wmctrl)
 
 <h1 align="left">
 	Installation
