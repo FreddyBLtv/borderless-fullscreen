@@ -14,16 +14,15 @@ This script is a simple bash script that allows you to force a windowed applicat
 <h1 align="left">
 	Installation
 </h1>
-Clone the repository or download the script to your local machine.
-shell
+1. Clone the repository or download the script to your local machine.
 Copy code
+```sh
 $ git clone https://github.com/<username>/borderless-fullscreen.git
-Make the script executable
-shell
+```
+2. Make the script executable
 Copy code
 $ chmod +x borderless-fullscreen.sh
-Install the required dependencies
-csharp
+3. Install the required dependencies
 Copy code
 $ sudo apt-get install xdotool zenity
 Usage
