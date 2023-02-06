@@ -44,6 +44,7 @@ $ git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 </h1>
 Open a terminal and navigate to the directory where the script is located.
 
+
 * Make the script executable
 
 ```sh
