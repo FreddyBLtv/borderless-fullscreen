@@ -46,7 +46,7 @@ git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 * In the terminal navigate to the directory where the script is located.
 
 ```sh
-cd borderless-fullsreen
+cd borderless-fullscreen
 ```
 * Make the installation script executable
 
