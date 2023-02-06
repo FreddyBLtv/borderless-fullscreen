@@ -63,7 +63,7 @@ After running the installation script, the Borderless Fullscreen application sho
 
 Open a terminal and navigate to the directory where the `install.sh` script is located.
 
-* Run the installation script
+* Run the uninstallation script
 
 ```sh
 ./uninstall.sh
