@@ -15,6 +15,8 @@ A shell script that allows you to force a selected windowed application into bor
 	Installation
 </h1>
 
+`Open a terminal`
+
 * Install the required dependencies
 
 `Debian/Ubuntu`
