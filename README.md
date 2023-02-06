@@ -16,6 +16,7 @@
 `Xorg`
 * [xdotool](https://pkgs.org/download/xdotool)
 * [zenity](https://pkgs.org/download/zenity)
+
 `Wayland`
 * [wlr-randr](https://pkgs.org/download/xdotool)
 * [wmctrl](https://pkgs.org/download/zenity)
