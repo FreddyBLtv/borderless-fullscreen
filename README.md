@@ -36,6 +36,7 @@ apk add --upgrade xdotool zenity
 <h1 align="left">
 	Usage
 </h1>
+
 `Open a terminal`
 
 * Clone the repository or download the script to your local machine.
