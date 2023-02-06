@@ -31,7 +31,7 @@ pacman -Syu xdotool zenity
 ```
 `Alpine`
 ```sh
-$ apk add --upgrade xdotool zenity
+apk add --upgrade xdotool zenity
 ```
 2. Clone the repository or download the script to your local machine.
 
