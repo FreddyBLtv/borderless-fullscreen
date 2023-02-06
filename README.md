@@ -47,7 +47,7 @@ sudo dnf install xdotool zenity
 ```
 **Wayland**
 ```sh
-sudo apt-get install wlr-randr wmctrl zenity
+sudo dnf install wlr-randr wmctrl zenity
 ```
 `Arch`
 
