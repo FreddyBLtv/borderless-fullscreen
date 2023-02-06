@@ -46,7 +46,7 @@ apk add --upgrade xdotool zenity
 ```sh
 git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 ```
-* In the terminal navigate to the directory where the script is located.
+* Navigate into the cloned repository.
 
 ```sh
 cd borderless-fullscreen
