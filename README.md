@@ -30,7 +30,12 @@
 * Install the required dependencies
 
 `Debian/Ubuntu`
+
 **Xorg**
+```sh
+sudo apt-get install xdotool zenity
+```
+**Wayland**
 ```sh
 sudo apt-get install xdotool zenity
 ```
