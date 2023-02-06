@@ -19,7 +19,7 @@ This script is a simple bash script that allows you to force a windowed applicat
 Copy code
 
 ```sh
-$ git clone https://github.com/<username>/borderless-fullscreen.git
+$ git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 ```
 2. Make the script executable
 
