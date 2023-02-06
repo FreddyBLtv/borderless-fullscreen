@@ -2,7 +2,7 @@
 	Borderless Fullscreen
 </h1>
 
-This is a simple bash script that allows you to force a windowed application into borderless fullscreen mode in Linux.
+After running the installation script, the Borderless Fullscreen application should be available in your application menu and you can start it by clicking on it.
 
 <h1 align="left">
 	Requirements
