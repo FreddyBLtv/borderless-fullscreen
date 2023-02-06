@@ -7,6 +7,7 @@ This script is a simple bash script that allows you to force a windowed applicat
 <h1 align="left">
 	Requirements
 </h1>
+
 * xdotool
 * zenity
 
