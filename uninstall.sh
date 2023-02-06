@@ -20,4 +20,7 @@ if [ -e "/usr/share/applications/borderless-fullscreen-wayland.desktop" ]; then
   rm /usr/share/applications/borderless-fullscreen-wayland.desktop
 fi
 
+cd ..
+rm -rf borderless-fullscreen
+
 echo "Uninstalled Successfully!"
