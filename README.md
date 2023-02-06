@@ -25,7 +25,7 @@ $ sudo apt-get install xdotool zenity
 ```sh
 $ sudo dnf install xdotool zenity
 ```
-`Arch'
+`Arch`
 ```sh
 $ pacman -Syu xdotool zenity
 ```
