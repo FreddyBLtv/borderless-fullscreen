@@ -2,12 +2,12 @@
 <h1 align="center">Borderless Fullscreen</h1>
 <div align="center">
 
+**A shell script that allows you to force a selected windowed application into borderless fullscreen mode using xdotool. (inspired by the '[Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming)' app on Windows)**
+
 [![Main](https://img.shields.io/badge/Maintainer-FreddyBLtv-green?style=flat-square)](https://github.com/FreddyBLtv)
 ![Main](https://img.shields.io/badge/OS-Linux-blue?style=flat-square)	
 
 </div>
-
-**A shell script that allows you to force a selected windowed application into borderless fullscreen mode using xdotool. (inspired by the '[Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming)' app on Windows)**
 
 <h1 align="left">
 	Requirements
