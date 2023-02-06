@@ -21,11 +21,16 @@ Copy code
 $ git clone https://github.com/<username>/borderless-fullscreen.git
 ```
 2. Make the script executable
-Copy code
+
+```sh
 $ chmod +x borderless-fullscreen.sh
+```
 3. Install the required dependencies
-Copy code
+
+```sh
 $ sudo apt-get install xdotool zenity
+```
+
 Usage
 Open a terminal and navigate to the directory where the script is located.
 
