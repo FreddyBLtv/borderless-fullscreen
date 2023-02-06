@@ -33,18 +33,20 @@ pacman -Syu xdotool zenity
 ```sh
 apk add --upgrade xdotool zenity
 ```
+<h1 align="left">
+	Usage
+</h1>
+Open a terminal 
+
 * Clone the repository or download the script to your local machine.
 
 ```sh
 git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 ```
-
-<h1 align="left">
-	Usage
-</h1>
-Open a terminal and navigate to the directory where the script is located.
-
-
+* In the terminimal navigate to the directory where the script is located.
+```sh
+cd borderless-fullsreen
+```
 * Make the installation script executable
 
 ```sh
