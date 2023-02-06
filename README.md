@@ -4,6 +4,8 @@
 
 A shell script that allows you to force a selected windowed application into borderless fullscreen mode using xdotool. (inspired by the '[Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming)' app on Windows)
 
+</div>
+
 <h1 align="left">
 	Requirements
 </h1>
