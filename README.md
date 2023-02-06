@@ -51,12 +51,12 @@ git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 ```sh
 cd borderless-fullscreen
 ```
-* Make the installation script executable
+* Make the installation script executable.
 
 ```sh
 sudo chmod +x install.sh
 ```
-* Run the installation script
+* Run the installation script.
 
 ```sh
 sudo ./install.sh
@@ -67,9 +67,9 @@ After running the installation script, the Borderless Fullscreen application sho
 	Uninstall
 </h1>
 
-Open a terminal and navigate to the directory where the `install.sh` script is located.
+Open a terminal and navigate into the cloned repository.
 
-* Run the uninstallation script
+* Run the uninstallation script.
 
 ```sh
 sudo ./uninstall.sh
