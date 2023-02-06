@@ -37,17 +37,27 @@ sudo apt-get install xdotool zenity
 ```
 **Wayland**
 ```sh
-sudo apt-get install xdotool zenity
+sudo apt-get install wlr-randr wmctrl zenity
 ```
 `Fedora`
+
+**Xorg**
 ```sh
 sudo dnf install xdotool zenity
 ```
+**Wayland**
+```sh
+sudo apt-get install wlr-randr wmctrl zenity
+```
 `Arch`
+
+**Xorg**
 ```sh
 pacman -Syu xdotool zenity
 ```
 `Alpine`
+
+**Xorg**
 ```sh
 apk add --upgrade xdotool zenity
 ```
@@ -77,6 +87,7 @@ sudo chmod +x install.sh
 ```sh
 sudo ./install.sh
 ```
+* Choose Wayland or Xorg.
 After running the installation script, the Borderless Fullscreen application should be available in your application menu and you can start it by clicking on it.
 
 <h1 align="left">
