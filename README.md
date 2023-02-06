@@ -14,6 +14,7 @@ This script is a simple bash script that allows you to force a windowed applicat
 <h1 align="left">
 	Installation
 </h1>
+
 1. Clone the repository or download the script to your local machine.
 Copy code
 
