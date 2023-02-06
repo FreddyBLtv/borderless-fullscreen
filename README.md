@@ -17,9 +17,21 @@ This is a simple bash script that allows you to force a windowed application int
 
 1. Install the required dependencies
 
-`Deb/Ubuntu`
+`Debian/Ubuntu`
 ```sh
 $ sudo apt-get install xdotool zenity
+```
+`Fedora`
+```sh
+$ sudo dnf install xdotool zenity
+```
+`Arch'
+```sh
+$ pacman -Syu xdotool zenity
+```
+`Alpine`
+```sh
+$ apk add --upgrade xdotool zenity
 ```
 2. Clone the repository or download the script to your local machine.
 
