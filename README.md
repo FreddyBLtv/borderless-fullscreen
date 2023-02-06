@@ -38,19 +38,19 @@ $ apk add --upgrade xdotool zenity
 ```sh
 $ git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 ```
-3. Make the script executable
+
+<h1 align="left">
+	Usage
+</h1>
+Open a terminal and navigate to the directory where the script is located.
+* Make the script executable
 
 ```sh
 $ chmod +x borderless-fullscreen.sh
 ```
+* Run the script
 
-
-Usage
-Open a terminal and navigate to the directory where the script is located.
-
-Run the script
-
-shell
-Copy code
+```sh
 $ ./borderless-fullscreen.sh
+```
 Select the windowed application you want to force into a borderless fullscreen mode from the list that appears.
