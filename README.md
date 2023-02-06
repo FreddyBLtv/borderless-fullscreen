@@ -13,8 +13,8 @@
 	Requirements
 </h1>
 
-* xdotool
-* zenity
+* [xdotool](https://pkgs.org/download/xdotool)
+* [zenity](https://pkgs.org/download/zenity)
 
 <h1 align="left">
 	Installation
