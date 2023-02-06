@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Borderless Fullscreen
+Comment=Force a windowed application into borderless fullscreen mode
+Exec=/usr/bin/borderless-fullscreen-wayland.sh
+Icon=/usr/share/icons/icon-bf.png
+Terminal=false
+Categories=Utility;
+
