@@ -45,14 +45,14 @@ $ git clone https://github.com/FreddyBLtv/borderless-fullscreen.git
 Open a terminal and navigate to the directory where the script is located.
 
 
-* Make the script executable
+* Make the installation script executable
 
 ```sh
-$ chmod +x borderless-fullscreen.sh
+$ chmod +x install.sh
 ```
-* Run the script
+* Run the installation script
 
 ```sh
-$ ./borderless-fullscreen.sh
+$ ./install.sh
 ```
-Select the windowed application you want to force into a borderless fullscreen mode from the list that appears.
+After running the installation script, the Borderless Fullscreen application should be available in your application menu and you can start it by clicking on it.
