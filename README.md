@@ -5,7 +5,8 @@
 **A shell script that allows you to force a selected windowed application into borderless fullscreen mode. (inspired by the '[Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming)' app on Windows)**
 
 [![Main](https://img.shields.io/badge/Maintainer-FreddyBLtv-green?style=flat-square)](https://github.com/FreddyBLtv)
-![Main](https://img.shields.io/badge/OS-Linux-blue?style=flat-square)	
+![Main](https://img.shields.io/badge/OS-Linux-blue?style=flat-square)
+[![Main](https://img.shields.io/badge/Downloads-yellow?style=flat-square)](https://github.com/FreddyBLtv/borderless-fullscreen)
 
 </div>
 
