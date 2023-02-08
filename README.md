@@ -6,7 +6,7 @@
 
 [![Main](https://img.shields.io/badge/Maintainer-FreddyBLtv-green?style=flat-square)](https://github.com/FreddyBLtv)
 ![Main](https://img.shields.io/badge/OS-Linux-blue?style=flat-square)
-[![Main](https://img.shields.io/badge/Downloads-yellow?style=flat-square)](https://github.com/FreddyBLtv/borderless-fullscreen)
+[![GitHub all releases](https://img.shields.io/github/downloads/FreddyBLtv/borderless-fullscreen/total?style=for-the-badge&color=00B000)](https://github.com/FreddyBLtv/borderless-fullscreen)
 
 </div>
 
